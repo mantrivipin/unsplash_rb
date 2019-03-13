@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'unsplash/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "unsplash"
+  spec.name          = "unsplash_vipin"
   spec.version       = Unsplash::VERSION
-  spec.authors       = ["Aaron Klaassen"]
-  spec.email         = ["aaron@unsplash.com"]
+  spec.authors       = ["Vipin Mantri"]
+  spec.email         = ["mantrivipin17@gmail.com"]
 
   spec.summary       = %q{Ruby wrapper for the Unsplash API.}
-  spec.homepage      = "https://github.com/unsplash/unsplash_rb"
+  spec.homepage      = "https://github.com/mantrivipin/unsplash_rb"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
