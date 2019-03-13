@@ -15,7 +15,7 @@ require "unsplash/collection"
 require "unsplash/stats"
 require "unsplash/search"
 
-module UnsplashVipin
+module Unsplash
   class << self
     attr_accessor :configuration
   end
@@ -28,3 +28,4 @@ module UnsplashVipin
     yield(configuration)
   end
 end
+
