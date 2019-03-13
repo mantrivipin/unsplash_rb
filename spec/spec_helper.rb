@@ -1,11 +1,11 @@
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'unsplash'
+require 'unsplash_vipin'
 require 'vcr'
 require 'pry'
 require 'coveralls'
 Coveralls.wear!
 
-Unsplash.configure do |config|
+UnsplashVipin.configure do |config|
   config.application_access_key = "baaa6a1214d50b3586bec6e06157aab859bd4d86dc0b755360f103f38974edc3"
   config.application_secret = "bb834160d12304045c55d0c0ec2eb0fe62a5fe249bc1a392386120d55eb2793a"
   config.utm_source = "unsplash_rb_specs"

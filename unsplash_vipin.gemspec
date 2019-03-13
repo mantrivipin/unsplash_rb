@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'unsplash/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "unsplash"
+  spec.name          = "unsplash_vipin"
   spec.version       = Unsplash::VERSION
   spec.authors       = ["Vipin Mantri"]
   spec.email         = ["mantrivipin17@gmail.com"]
