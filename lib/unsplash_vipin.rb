@@ -21,7 +21,7 @@ module UnsplashVipin
   end
 
   def self.configuration
-    @configuration ||= Configuration.new
+    @configuration ||= Unsplash::Configuration.new
   end
 
   def self.configure
