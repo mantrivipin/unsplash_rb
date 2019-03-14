@@ -1,5 +1,5 @@
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'unsplash_vipin'
+require 'unsplash_mango'
 require 'vcr'
 require 'pry'
 require 'coveralls'

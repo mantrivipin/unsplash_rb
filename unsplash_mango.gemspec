@@ -4,9 +4,9 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'unsplash/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "unsplash_vipin"
+  spec.name          = "unsplash_mango"
   spec.version       = Unsplash::VERSION
-  spec.authors       = ["Vipin Mantri"]
+  spec.authors       = ["Mangoapps"]
   spec.email         = ["mantrivipin17@gmail.com"]
 
   spec.summary       = %q{Ruby wrapper for the Unsplash API.}
